@@ -1,0 +1,61 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+}
+body{
+    background-color: #292929;
+}
+.content{
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.inputdice{
+    margin-right: 10px;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+    width: 200px;
+}
+.rollbtn{
+    background: url("dots.jpg") no-repeat scroll 0 0 transparent;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-left: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+.resulttxt{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.resultimg{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resultimg img{
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+}
